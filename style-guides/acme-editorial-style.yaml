@@ -1,0 +1,73 @@
+# ==========================================================================
+# Guía de estilo · Acme Iberia — editorial
+#
+# La misma marca con otra voz: tipografía con remates y una paleta cálida,
+# para informes largos y memorias que se leen seguidas.
+#
+# Cárgala encima de la anterior sin recargar la página: cambia el documento
+# entero —titulares, tablas, pies y diagramas— sin tocar el Markdown.
+# ==========================================================================
+
+brand:
+  name: "Acme Iberia"
+  tagline: "Distribución técnica"
+  language: "es"
+
+palette:
+  primary: "#5C3A21"
+  accent: "#8A5A2B"
+  surface: "#FFFDF9"
+  on_surface: "#221E1A"
+  band_bg: "#3E2E22"
+  band_fg: "#FFFDF9"
+  muted: "#8A8078"
+  surface_alt: "#F6F0E7"
+  accent_soft: "#EFE2D2"
+  line: "#D8C7B2"
+  warning_soft: "#F6E9E4"
+  code_bg: "#3E2E22"
+  code_fg: "#F6F0E7"
+
+semantic:
+  action: "#8A5A2B"
+  risk: "#A83B2A"
+  tool: "#8A8078"
+
+typography:
+  display:    { family: ["Georgia", "Times New Roman", "serif"], weight: 700, size_pt: 34, letter_spacing: -0.01 }
+  heading:    { family: ["Georgia", "Times New Roman", "serif"], weight: 700, size_pt: 20 }
+  subheading: { family: ["Georgia", "Times New Roman", "serif"], weight: 400, size_pt: 13, italic: true }
+  body:       { family: ["Georgia", "Times New Roman", "serif"], weight: 400, size_pt: 10.5, line_height: 1.6 }
+  caption:    { family: ["Helvetica Neue", "Helvetica", "Arial"], weight: 400, size_pt: 8.5, italic: true }
+  mono:       { family: ["Menlo", "Consolas", "Courier New"], weight: 400, size_pt: 9 }
+
+layout:
+  page_size: "A4"
+  margin_mm: { top: 26, right: 24, bottom: 24, left: 24 }
+  cover: { logo_height_mm: 13 }
+  toc: { title: "Sumario", numbered: true }
+  footer: { align: "right", rule: true, show_page_number: true }
+
+components:
+  band: { style: "filled", italic: false, padding_pt: 8 }
+  table:
+    {
+      header_bg: "#3E2E22",
+      header_fg: "#FFFDF9",
+      row_alt: "#F6F0E7",
+      border: "0.4pt solid #D8C7B2",
+      padding_pt: 5,
+    }
+  callout_info:
+    { bg: "#EFE2D2", border_left: "3pt solid #8A5A2B", padding_pt: 9 }
+  callout_warning:
+    { bg: "#F6E9E4", border_left: "3pt solid #A83B2A", padding_pt: 9 }
+  divider: { color: "#D8C7B2", thickness_pt: 0.5 }
+  mermaid:
+    {
+      node_bg: "#EFE2D2",
+      node_border: "#8A5A2B",
+      node_text: "#221E1A",
+      line: "#8A8078",
+      alt_bg: "#F6F0E7",
+    }

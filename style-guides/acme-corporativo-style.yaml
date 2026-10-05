@@ -1,0 +1,83 @@
+# ==========================================================================
+# Guía de estilo · Acme Iberia — corporativo
+#
+# Guía de demostración con una marca inventada. Cópiala, cambia los colores
+# y las tipografías por los de tu empresa y tendrás la tuya.
+#
+# Todo lo que hay en «components» sale de esta paleta: si cambias un color
+# de «palette», cambian con él la tabla, los avisos, el filete y el pie.
+#
+# Las tipografías van como lista: se piden por orden y el equipo usa la
+# primera que tenga instalada. Aquí se piden familias presentes en
+# cualquier sistema, para que la demostración se vea igual en todas partes.
+# ==========================================================================
+
+brand:
+  name: "Acme Iberia"
+  tagline: "Distribución técnica"
+  language: "es"
+
+palette:
+  primary: "#1C4E80"
+  accent: "#2E6DA4"
+  surface: "#FFFFFF"
+  on_surface: "#1A1A1A"
+  band_bg: "#4A4F55"            # fondo de las bandas destacadas
+  band_fg: "#FFFFFF"
+  muted: "#767B81"              # pies de página y texto secundario
+  surface_alt: "#F1F5F9"        # alternancia de filas
+  accent_soft: "#DCE7F1"        # avisos y realces
+  line: "#C3D5E5"               # filetes y bordes de tabla
+  warning_soft: "#F8EEEC"
+  code_bg: "#5C6167"
+  code_fg: "#F2F2F2"
+
+semantic:
+  action: "#2E6DA4"
+  risk: "#B3261E"
+  tool: "#767B81"
+
+typography:
+  display:    { family: ["Helvetica Neue", "Helvetica", "Arial"], weight: 700, size_pt: 40, letter_spacing: -0.02 }
+  heading:    { family: ["Helvetica Neue", "Helvetica", "Arial"], weight: 700, size_pt: 22, letter_spacing: -0.01 }
+  subheading: { family: ["Helvetica Neue", "Helvetica", "Arial"], weight: 500, size_pt: 13 }
+  body:       { family: ["Helvetica Neue", "Helvetica", "Arial"], weight: 400, size_pt: 10, line_height: 1.5 }
+  caption:    { family: ["Helvetica Neue", "Helvetica", "Arial"], weight: 400, size_pt: 8.5, italic: true }
+  mono:       { family: ["Menlo", "Consolas", "Courier New"], weight: 400, size_pt: 9 }
+
+layout:
+  page_size: "A4"
+  margin_mm: { top: 24, right: 20, bottom: 22, left: 20 }
+  cover: { logo_height_mm: 14 }
+  toc: { title: "Índice", numbered: true }
+  footer: { align: "right", rule: true, show_page_number: true }
+
+brand_departments:
+  MKT: "Marketing"
+  SAL: "Ventas"
+  OPS: "Operaciones"
+  FIN: "Finanzas"
+
+components:
+  band: { style: "filled", italic: false, padding_pt: 7 }
+  table:
+    {
+      header_bg: "#4A4F55",
+      header_fg: "#FFFFFF",
+      row_alt: "#F1F5F9",
+      border: "0.4pt solid #C3D5E5",
+      padding_pt: 4.5,
+    }
+  callout_info:
+    { bg: "#DCE7F1", border_left: "3pt solid #2E6DA4", padding_pt: 8 }
+  callout_warning:
+    { bg: "#F8EEEC", border_left: "3pt solid #B3261E", padding_pt: 8 }
+  divider: { color: "#C3D5E5", thickness_pt: 0.5 }
+  mermaid:
+    {
+      node_bg: "#DCE7F1",
+      node_border: "#2E6DA4",
+      node_text: "#1A1A1A",
+      line: "#767B81",
+      alt_bg: "#F1F5F9",
+    }

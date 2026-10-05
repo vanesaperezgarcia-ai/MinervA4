@@ -1,0 +1,66 @@
+{
+  "period": {
+    "quarter": "Q4 2026",
+    "closed_on": "2026-12-31",
+    "prepared_by": "Betrieb",
+    "currency": "EUR"
+  },
+  "summary": {
+    "revenue": 3960000,
+    "revenue_change": -0.081,
+    "gross_margin": 0.298,
+    "order_book_weeks": 3.4,
+    "on_time_delivery": 0.912,
+    "target_met": false,
+    "headcount": 179,
+    "currency": "EUR",
+    "average_order": 16104.2
+  },
+  "regions": [
+    {
+      "region": "Nord",
+      "revenue": 1520000,
+      "change": -0.146,
+      "margin": 0.311,
+      "on_time": 0.928
+    },
+    {
+      "region": "Süd",
+      "revenue": 1090000,
+      "change": -0.044,
+      "margin": 0.294,
+      "on_time": 0.905
+    },
+    {
+      "region": "Ost",
+      "revenue": 840000,
+      "change": -0.045,
+      "margin": 0.302,
+      "on_time": 0.921
+    },
+    {
+      "region": "West",
+      "revenue": 510000,
+      "change": 0.0,
+      "margin": 0.285,
+      "on_time": 0.894
+    }
+  ],
+  "costs": [
+    {
+      "concept": "Transport",
+      "amount": 648000,
+      "change": 0.059
+    },
+    {
+      "concept": "Personal",
+      "amount": 1795000,
+      "change": -0.024
+    },
+    {
+      "concept": "Lagerhaltung",
+      "amount": 409000,
+      "change": 0.03
+    }
+  ]
+}

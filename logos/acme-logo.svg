@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 48" width="220" height="48" role="img" aria-label="Acme Iberia">
+  <rect x="0" y="8" width="32" height="32" rx="6" fill="#1C4E80"/>
+  <path d="M9 32 16 16l7 16M12.5 26.5h7" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="44" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#1C4E80" letter-spacing="1.5">ACME</text>
+  <text x="44" y="41" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="8" fill="#767B81" letter-spacing="2.6">IBERIA</text>
+</svg>

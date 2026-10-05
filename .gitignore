@@ -1,0 +1,13 @@
+# nada de lo que salga de trabajar con la herramienta debe subirse
+*.pdf
+_to_delete/
+Claude outputs/
+
+# basura de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# marcas y material propio: se quedan en tu equipo
+style-guides/private-*
+logos/private-*
